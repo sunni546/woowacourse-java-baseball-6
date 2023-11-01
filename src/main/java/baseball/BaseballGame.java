@@ -9,14 +9,8 @@ public class BaseballGame {
     private void run() {
         Computer computer = new Computer();
 
-        // (삭제 예정)
-        System.out.println(computer.getNumbers());
-
         while (true) {
             User user = new User();
-
-            // (삭제 예정)
-            System.out.println(user.getNumbers());
 
             Umpire umpire = new Umpire();
             umpire.compareUserWithComputer(user.getNumbers(), computer.getNumbers());
